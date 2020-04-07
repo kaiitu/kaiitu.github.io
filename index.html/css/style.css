@@ -5,5 +5,11 @@
 
 
 body {
-  background: lightgrey;
+  background: grey;
+}
+
+h1 {
+  color: grey;
+  font-family: helvetica;
+  font-size: 200%;
 }
