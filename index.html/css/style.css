@@ -24,9 +24,3 @@ p {
   font-size: 100%;
   padding: 20px;
 }
-
-.photo1 {
-  background-image: url("Hatch pattern.JPG");
-  background-repeat: no-repeat;
-  background-size: cover;
-}
