@@ -5,11 +5,28 @@
 
 
 body {
-  background: grey;
+  background-image: url("Hatch pattern.JPG");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: black;
 }
 
 h1 {
-  color: lightgrey;
+  color: darkgrey;
   font-family: helvetica;
   font-size: 200%;
+  padding: 20px;
+}
+
+p {
+  color: white;
+  font-family: helvetica;
+  font-size: 100%;
+  padding: 20px;
+}
+
+.photo1 {
+  background-image: url("Hatch pattern.JPG");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
