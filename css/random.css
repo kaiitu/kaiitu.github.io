@@ -12,9 +12,30 @@ h1 {
   color: darkgrey;
   font-family: helvetica;
   font-size: 200%;
-  padding: 20px;
+  padding: 10px;
+}
+
+.car-foreground {
+    position:absolute;
+    top: 100px;
+    left: 10px;
+    z-index: 3;
+}
+
+.car-color {
+  position:absolute;
+  top: 100px;
+  left: 10px;
+  background-color: blue;
+  height: 591px;
+  width: 981px;
+  mix-blend-mode: darken;
+  z-index: 2;
 }
 
 .car-background {
-    background-image:"Photoshop car background.png";
+    position:absolute;
+    top: 100px;
+    left: 10px;
+    z-index: 1;
 }
