@@ -1,0 +1,20 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+
+body {
+  background-color: black;
+}
+
+h1 {
+  color: darkgrey;
+  font-family: helvetica;
+  font-size: 200%;
+  padding: 20px;
+}
+
+.car-background {
+    background-image:"Photoshop car background.png";
+}
