@@ -35,6 +35,7 @@ h1 {
   padding: 15px 30px;
   border: none;
   text-align: center;
+  cursor: pointer;
 }
 
 .button:hover {
