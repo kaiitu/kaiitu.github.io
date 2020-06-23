@@ -1,0 +1,51 @@
+<html>
+  <head>
+    <script src="https://aframe.io/releases/1.0.4/aframe.min.js"></script>
+    <script src="https://unpkg.com/aframe-environment-component@1.1.0/dist/aframe-environment-component.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="script.js"></script>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Muli&display=swap"
+      rel="stylesheet"
+    />
+    <style></style>
+  </head>
+  <body>
+    <a-scene
+      shadow="type: pcfsoft"
+      antialias="true"
+      fog="type: exponential; color:  #EBEDF0;  far:  2;  near:  0;  density:  .3"
+    >
+      <a-entity id="field" position="-1 0 -5"></a-entity>
+      <a-plane
+        color="#f2f5fa"
+        height="1000"
+        width="1000"
+        rotation="-90 0 0"
+        shadow="receive: true; cast: true"
+      ></a-plane>
+
+      <a-entity
+        light="type: point; castShadow: true"
+        position="3 6 5"
+      ></a-entity>
+
+      <a-entity light="type: ambient; intensity: .8"></a-entity>
+      <a-sky color="#fffdf5"></a-sky>
+      <a-entity
+        camera
+        look-controls
+        wasd-controls
+        position="0 .2 -3"
+        acceleration="10"
+        position-reader
+      >
+      </a-entity>
+    </a-scene>
+
+    <script>
+      field = document.getElementById("field");
+      makeCube(1);
+    </script>
+  </body>
+</html>
