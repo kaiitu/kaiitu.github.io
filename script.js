@@ -34,11 +34,7 @@ function makeCube(cubeNumber) {
     y.push(0);
   }
   var zNew = z[count - 1] + (Math.round(Math.random() * 2) * 0.5 - 0.5);
-  if (xNew == 0 && yNew <= 0) {
-    z.push(0.5);
-  } else {
-    z.push(zNew);
-  }
+  z.push(zNew);
   field.appendChild(cube);
 }
 
