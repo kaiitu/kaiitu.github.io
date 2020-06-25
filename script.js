@@ -84,7 +84,7 @@ AFRAME.registerComponent("unit", {
     b2.setAttribute("scale", "0.01, 0.01, 0.01");
     b2.setAttribute(
       "animation",
-      "property: material.opacity; from: 0; to: 1; loop: false; dur: 3000"
+      `property: material.opacity; from: 0; to: ${cubeO}; loop: false; dur: 3000`
     );
     switch (modNum) {
       case 1:
